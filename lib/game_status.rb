@@ -37,8 +37,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.none? do |space|
-    if space == "  " || space == nil
+  board.all? do |space|
+    if space == "X" || space == "O"
     end
   end
 end
