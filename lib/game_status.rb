@@ -58,11 +58,5 @@ end
 
 def winner(board)
   winning = won?(board)
-  if winning[0] == "X"
-    return "X"
-  elsif winning[0] == "O"
-    return "O"
-  else
-    return nil
-  end
+  puts winning
 end
