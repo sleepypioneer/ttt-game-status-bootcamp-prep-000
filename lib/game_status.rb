@@ -38,8 +38,7 @@ end
 
 def full?(board)
   board.all? do |space|
-    if space == "X" || space == "O"
-    end
+    space == "X" || space == "O"
   end
 end
 
